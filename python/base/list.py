@@ -1,0 +1,22 @@
+a=[12,2,5,8,9,2,4,87]
+print(a)
+a.append(555)
+print(a)
+a.insert(1,999)
+print(a)
+a.remove(2)
+print(a)
+print(a[3])
+print(a[-1])
+print(a[0:3])
+
+print(a.index(999))
+print(a.count(2))
+a.sort()
+print(a)
+a.sort(reverse=True)
+print(a)
+b=[[1,2,3],
+   [2,3,4],
+   [3,4,5]]
+print(b[2][2])
